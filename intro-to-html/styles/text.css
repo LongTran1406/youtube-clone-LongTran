@@ -1,0 +1,32 @@
+p {
+    font-family: roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.freecode-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+.free {
+    color: grey;
+}
+.des-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    line-height: 20px;
+    width: 625px;
+}
+.end-text {
+    margin-top: 40px;
+    font-size: 20px;
+    color: black;
+}
+.chp-text {
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+    margin-top: 5px;
+}
+.chp-text:hover {
+    cursor: pointer;
+}

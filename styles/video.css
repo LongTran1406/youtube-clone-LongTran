@@ -1,0 +1,37 @@
+.video1-row, .video2-row, .video3-row, .video4-row {
+    position: relative;
+}
+.video1-thumbnail, .video2-thumbnail, .video3-thumbnail, .video4-thumbnail, .video5-thumbnail {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.video1-info, .video2-info, .video3-info, .video4-info {
+    width: 100%;
+}
+.video1-time, .video2-time, .video3-time, .video4-time{
+    color: white;
+    background: black;
+    position: absolute;
+    bottom: 17px;
+    right :5px;
+    font-size: 13px;
+    padding: 5px;
+    font-family: arial;
+    border-radius: 2px;
+}
+.video1-channel, .video2-channel, .video3-channel, .video4-channel {
+    border-radius: 50%;
+    width: 40px;
+}
+.video1-title, .video2-title, .video3-title, .video4-title {
+    font-weight: bold;
+    width: 100%
+}
+.video1-author, .video2-author, .video3-author, .video4-author{
+    color: grey;
+    margin-top: 10px;
+}
+.video1-stats, .video2-stats, .video3-stats, .video4-stats{
+    color: grey;
+}

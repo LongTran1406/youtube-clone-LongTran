@@ -1,0 +1,92 @@
+.header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    top: 0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    padding-right: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(201, 201, 201);
+    z-index: 100;
+}
+.left-section {
+    width: 150px;
+}
+.middle-section {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 35px;
+    margin-left: 70px;
+}
+
+.right-section {
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.menu {
+    margin-left: 20px;
+    width: 30px;
+    margin-right: 20px
+}
+.youtube {
+    margin-right: 20px;
+    width: 80px;
+}
+.search {
+    width: 0;
+    flex:1;
+    border-color:grey ;
+    border-style: solid;
+    border-width: 1px;
+}
+.investigate-button {
+    border-color:grey ;
+    border-style: solid;
+    border-width: 1px;
+}
+.investigate {
+    width: 30px;
+    height: 20px;
+}
+.voice-button {
+    border-radius: 50%;
+    width: 30px;
+    border: none;
+    margin-left: 10px;
+}
+.voice {
+    border-radius: 50%;
+}
+.noti, .youtube-apps, .upload{
+    width: 30px;
+}
+
+.profile-picture {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.noti-row {
+    position: relative;
+}
+.noti-red {
+    font-family: Arial;
+    position: absolute;
+    color: white;
+    background-color:rgb(220, 7, 7) ; 
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    top: -6px;
+    right: 0px;
+    font-size: 11px;
+}
